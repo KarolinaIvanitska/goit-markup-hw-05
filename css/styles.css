@@ -715,6 +715,10 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.input-user-name:focus{
+    border-color: #4D5AE5;
+}
+
 
 .svg{
     fill:#2E2F42;
@@ -725,7 +729,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-user-name .svg:focus {
+.svg .input-user-name:focus {
     fill:#4D5AE5;
 }
 
