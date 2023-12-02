@@ -27,8 +27,7 @@ body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: var(--body-color);
-    letter-spacing: 0.02;
-    box-sizing: border-box;
+    letter-spacing: 0.02em;
 }
 
 img {
@@ -465,7 +464,6 @@ ol, ul{
 .container-all-footer {
     align-items: baseline;
     display: flex;
-    width: 1140px;
 }
 
 .logo-footer {
@@ -488,17 +486,14 @@ ol, ul{
 
 .paragraph-footer {
     color: var(--white-color);
-    font-family: Roboto, sans-serif;
     font-size: 16px;
-    font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    width: 264px;
-    height: 112px;
 }
 
 .container-footer {
+    width: 264px;
     margin-right: 120px;
 }
 
@@ -586,8 +581,6 @@ ol, ul{
 
 .button-footer-email{
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
-    text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -596,11 +589,8 @@ ol, ul{
     cursor: pointer;
     display: inline-flex;
     border-radius: 4px;
-    background: var(--IRIS, #4D5AE5);
     padding: 8px 24px;
-    justify-content: center;
     align-items: center;
-    gap: 16px;
     height: 40px;
     min-width: 165px;
     border: none;
@@ -719,7 +709,6 @@ ol, ul{
     border-color: #4D5AE5;
 }
 
-
 .svg{
     fill:#2E2F42;
     position:absolute;
@@ -728,7 +717,6 @@ ol, ul{
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .div-comment{
     margin-bottom: 16px;
@@ -761,7 +749,6 @@ ol, ul{
 
 .label-checkbox{
     display: block;
-    color:var(--a-color);
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
