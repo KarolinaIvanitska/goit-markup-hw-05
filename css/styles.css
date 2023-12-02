@@ -729,9 +729,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-user-name .svg:focus {
-    fill: #4D5AE5;
-}
 
 .div-comment{
     margin-bottom: 16px;
@@ -750,9 +747,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    border-color: #4D5AE5;
     border: 1px solid rgba(46, 47, 66, 0.4);
     height: 120px;
+}
+
+.textarea:focus {
+    border-color: #4D5AE5;
 }
 
 .div-checkbox{
@@ -780,7 +780,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: transparent;
 }
 
-.input-checkbox[type="span-label-checkbox"]:checked{
+.input-user-name:focus>.svg {
+   fill: #4D5AE5;
+}
+
+.input-checkbox:checked + .label-checkbox > .span-label-checkbox{
     background-color: var(--firstword-text-color);
     border: none;
     fill: var(--white-color);
@@ -813,6 +817,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-right: auto;
     
 }
+/*=====END MODAL-WINDOW=====*/
+
+
 
 /*=====PORTFOLIO-PAGE=====*/
 /*=====header portfolio=====*/
