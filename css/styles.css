@@ -13,6 +13,7 @@
 :root {
     --text-color: #2E2F42;
     --firstword-text-color: #4D5AE5;
+    --background-color: #404bbf;
     --backgroud-color: #2e2f42;
     --paragraph-color: #434455;
     --white-color: #F4F4FD;
@@ -784,7 +785,7 @@ ol, ul{
 }
 
 .input-checkbox:checked + .label-checkbox > .span-label-checkbox{
-    background-color: var(--firstword-text-color);
+    background-color: var(--background-color);
     border: none;
     fill: var(--white-color);
 }
