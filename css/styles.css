@@ -591,6 +591,7 @@ ol, ul{
     border-radius: 4px;
     padding: 8px 24px;
     align-items: center;
+    justify-content: center;
     height: 40px;
     min-width: 165px;
     border: none;
@@ -753,6 +754,7 @@ ol, ul{
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
+    color:var(--a-color);
 }
 
 .span-label-checkbox{
